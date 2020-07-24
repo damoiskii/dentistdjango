@@ -128,8 +128,8 @@ STATICFILES_DIRS = [
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'moimyazz@gmail.com'  # os.environ.get('EMAIL_USER')
-EMAIL_HOST_PASSWORD = 'Damoimyers16'  # os.environ.get('EMAIL_PASS')
+EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
 EMAIL_USE_TLS = True
 # EMAIL_USE_SSL = False
 # check this -> myaccount.google.com/lesssecureapps
