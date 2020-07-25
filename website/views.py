@@ -81,6 +81,7 @@ def appointment(request):
             appointment,  # Message
             your_email,  # From email
             ['moimyazz@gmail.com'],  # To email
+            fail_silently=False,
         )
 
         context = {
