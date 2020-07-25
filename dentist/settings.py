@@ -16,7 +16,7 @@ SECRET_KEY = '-4j7kkq6bji42&fsk^x*3c*%sy*ck+08#*_477ghmyeb^n=05-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dentistdoc.herokuapp.com']
 
 
 # Application definition
